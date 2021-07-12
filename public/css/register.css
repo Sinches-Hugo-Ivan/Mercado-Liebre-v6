@@ -1,0 +1,126 @@
+body .registro {
+  font-size: 14px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.registro h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.registro form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.registro form input {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+  color: black;
+}
+
+.perfil-usuario label {
+  margin-right: 15px;
+}
+.registro .interes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.registro .interes label {
+  margin-right: 15px;
+}
+.registro .label {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.registro .botones {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.registro button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(14, 44, 145);
+  color: white;
+}
+.registro #reset {
+  color: rgb(14, 44, 145);
+  background-color: rgb(173, 173, 173);
+  border: none;
+}
+.registro #submit {
+  color: white;
+  background-color: rgb(14, 44, 145);
+  border: none;
+}
+
+
+
+/* TABLET */
+@media (min-width: 361px) {
+  body .registro {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .registro form {
+    width: 70%;
+  }
+  .registro .botones {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .registro button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .registro #reset {
+    color: rgb(14, 44, 145);
+    background-color: rgb(173, 173, 173);
+  }
+  .registro #submit {
+    color: white;
+    background-color: rgb(14, 44, 145);
+  }
+}
+
+
+
+/* DESKTOP*/
+
+@media (min-width: 769px) {
+  body .registro {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .registro form {
+    width: 60%;
+  }
+  .registro form input {
+    margin-bottom: 25px;
+    padding: 10px;
+  }
+  .registro .botones {
+    margin-top: 30px;
+  }
+  .registro button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+}
